@@ -12,6 +12,6 @@ var $box = $("#box"),
 	});
 
 inst.bind($("#area")[0], {
-	direction : eg.DIRECTION_ALL,
+	direction : eg.MovableCoord.DIRECTION_ALL,
 	maximumSpeed : 50
 });
