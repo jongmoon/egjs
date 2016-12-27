@@ -27,7 +27,7 @@ inst = new eg.MovableCoord({
 });
 
 inst.bind(document.body, {
-      direction : eg.DIRECTION_ALL,
+      direction : eg.MovableCoord.DIRECTION_ALL,
       maximumSpeed : 50
 });
 ```

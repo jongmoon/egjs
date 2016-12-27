@@ -2,7 +2,7 @@
 ---
 
 @charset "utf-8";
-
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 // Example Defaults
 // $base-font-family: Helvetica, Arial, sans-serif;
 // $base-font-size:   16px;
@@ -34,11 +34,9 @@
 // }
 
 // variables.less
-$theme-primary: #00B4F1;
+$theme-primary: #ffce00;
 $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "mixins",
-        "base"
-;
+@import "mixins";
+@import "base";
